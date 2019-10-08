@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<library_data>
+    <catalogues category="technical-books"> 
+        <book>
+            <ISBN>978-3-16-148410-0</ISBN> 
+            <title>ACCELERATE</title>
+            <author>Nicole Forsgren</author>
+        </book>
+        <book>
+            <ISBN>973-2-56-134413-3</ISBN> 
+            <title>Lean Software Development</title>
+            <author>Mary Poppendieck and Tom Poppendieck</author>
+        </book> 
+    </catalogues> 
+    <catalogues category="cookery-books"> 
+        <book>
+            <ISBN>321-3-16-148425-4</ISBN> 
+            <title>Vegan Cookbook</title>
+            <author>Barb Musick</author>
+        </book>
+        <book>
+            <ISBN>459-2-56-134421-6</ISBN> 
+            <title>Best world recipes</title>
+            <author>Dany Stewart</author>
+        </book> 
+    </catalogues> 
+</library_data>
