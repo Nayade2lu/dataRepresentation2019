@@ -10,7 +10,8 @@
 
     <body>
         <button onclick="readJSON()">go</button>
-        <div id="output"></div>
+        <div id="outputE"></div>
+        <div id="outputU"></div>
     </body>
     <script>
         function readJSON(){
@@ -22,10 +23,10 @@
                 "success":function(result){
                     var rate = result.bpi.EUR.rate
                     console.log(rate);
-                    document.getElementById("output").innerText = rate;
+                    document.getElementById("outputE").innerText = rate;
                     var rate = result.bpi.USD.rate
                     console.log(rate);
-                    document.getElementById("output").innerText = rate;
+                    document.getElementById("outputU").innerText = rate;
                 },
                 "error":function(xhr,status,error){
                 console.log("error: "+status+" msg:"+error);
